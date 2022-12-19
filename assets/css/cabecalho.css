@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-azul{
+    color: var(--azul-destaque);
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.login{
+    color: var(--azul-destaque);
+    padding: .5rem 2rem;
+    border: 1px solid var(--azul-destaque);
+    cursor: pointer;
+}

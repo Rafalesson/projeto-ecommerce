@@ -1,0 +1,14 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    color: var(--texto-destaque);
+    justify-content: end;
+    background: url("../img/banner.png");
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+    line-height: 2;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
