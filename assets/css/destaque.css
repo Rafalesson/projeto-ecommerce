@@ -21,11 +21,11 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 1px 1px 5px black;
-    width: fit-content;
+    width: max-content;
 }
 
 .banner__p{
-    width: fit-content;
+    width: max-content;
     font-size: 1rem;
     font-weight: 400;
     text-shadow: 1px 1px 5px black;
