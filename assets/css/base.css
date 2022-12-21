@@ -5,16 +5,17 @@
     --texto-destaque: #FFFF;
     --azul-destaque: #2a7ae4;
     --bg-contato: #Eaf2fd;
+    --preto-leve: #464646;
   }
 
   *{
     box-sizing: border-box;
-    font-family: 'Releway', sans-serif;
     scroll-behavior: smooth;
   }
 
   body{
     background-color: var(--bg-color);
+    font-family: 'Raleway', sans-serif;
   }
 
   

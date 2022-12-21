@@ -1,14 +1,41 @@
-.banner{
-    display: flex;
-    flex-direction: column;
-    color: var(--texto-destaque);
-    justify-content: end;
+.destaque{
     background: url("../img/banner.png");
     background-position: center;
     background-size: cover;
     height: 35vh;
     width: 100%;
-    line-height: 2;
+    display: flex;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: var(--texto-destaque);
+    line-height: 1.5;
     font-size: 1.2rem;
     padding: 1rem;
+}
+
+.banner__h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.banner__h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner__btn{
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 5px;
 }
