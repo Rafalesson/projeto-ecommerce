@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
@@ -22,14 +24,16 @@
     <header class="cabecalho">
       <nav class="menu">
         <div class="logo-busca">
-          <div class="logo">
             <img src="assets\img\logo.svg" alt="logo" />
             <p class="logo-azul">Geek</p>
             <p>Store</p>
-          </div>
-          <!-- <input type="text" placeholder="O que desejo encontrar?" /> -->
         </div>
         <!--logo-busca-->
+
+        <div class="buscador">
+          <input type="text" name="buscador" id="buscador" placeholder="Procurando algo?">
+        </div>
+        <!--bucador-->
 
         <div class="login">
           <a href="login.html">
@@ -38,7 +42,7 @@
         </div>
         <!--login-->
 
-        <div class="busca">
+        <div class="lupa">
           <img src="./assets/img/lupa.svg" alt="lupa" />
         </div>
         <!--busca-->
@@ -67,6 +71,7 @@
           <p>Ver Tudo <img src="assets\img\seta.svg" alt="seta" /></p>
         </div>
       </div>
+
       <section class="sessao-produtos">
         <div class="prod-holder">
           <div class="produto">
@@ -76,6 +81,7 @@
             <a href=""  class="ver-prod">Ver Produto</a>
           </div>
         </div>
+
         <div class="prod-holder">
           <div class="produto">
             <img src="assets\img\legosw.png" alt="lego" />
@@ -84,14 +90,7 @@
             <a href="" class="ver-prod">Ver Produto</a>
           </div>
         </div>
-        <div class="prod-holder">
-          <div class="produto">
-            <img src="assets\img\yoda.png" alt="yoda" />
-            <p class="descrição">Produto xyz</p>
-            <p class="preco">60,00</p>
-            <a href="" class="ver-prod">Ver Produto</a>
-          </div>
-        </div>
+
         <div class="prod-holder">
           <div class="produto">
             <img src="assets\img\stormtropper.png" alt="storm" />
@@ -100,6 +99,7 @@
             <a href="" class="ver-prod">Ver Produto</a>
           </div>
         </div>
+
         <div class="prod-holder">
           <div class="produto">
             <img src="assets\img\babyyoda.png" alt="byoda" />
@@ -108,9 +108,19 @@
             <a href="" class="ver-prod">Ver Produto</a>
           </div>
         </div>
+
         <div class="prod-holder">
           <div class="produto">
             <img src="assets\img\mandalorian.png" alt="mandalorian" />
+            <p class="descrição">Produto xyz</p>
+            <p class="preco">60,00</p>
+            <a href="" class="ver-prod">Ver Produto</a>
+          </div>
+        </div>
+
+        <div class="prod-holder">
+          <div class="produto">
+            <img src="assets\img\acentoStarWars.jpg" alt="um banco com tema do star wars" />
             <p class="descrição">Produto xyz</p>
             <p class="preco">60,00</p>
             <a href="" class="ver-prod">Ver Produto</a>
@@ -245,6 +255,7 @@
         <p class="referencia__p1">Geek</p>
         <p class="referencia__p2">Store</p>
       </div>
+      
       <div class="links-uteis">
         <a href="">Quem somos nós</a>
         <a href="">Politica de Privacidade</a>

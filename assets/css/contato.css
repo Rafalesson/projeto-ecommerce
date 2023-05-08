@@ -1,5 +1,6 @@
 .contato{
     margin-top: 2rem;
+    background-color: #eaf2fd;
 }
 
 .contato:first-child{
@@ -7,8 +8,7 @@
     flex-direction: column;
     padding: 1rem;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .referencia{
@@ -63,6 +63,7 @@
     padding: 1rem 1rem 1rem .5rem;
     margin-bottom: .5rem;
     outline: none;
+    border-bottom: 1px solid var(--azul-destaque);
 }
 
 .text-msg{
@@ -71,16 +72,95 @@
     padding: 1rem 1rem 1rem .5rem;
     resize: none;
     outline: none;
+    border-bottom: 1px solid var(--azul-destaque);
 }
 
 .form__btn{
     align-self: baseline;
     background-color: var(--azul-destaque);
-    color: var(--texto-destaque);
+    color: var(--branco-total);
     border: none;
     padding: 1rem 1rem 1rem .5rem;
     margin-top: 1rem;
     cursor: pointer;
     border-radius: 5px;
     text-align: left;
+}
+
+@media screen and (min-width: 481px) {
+    .contato{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .referencia{
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .referencia img{
+        padding-right: .5rem;
+        width: 2rem;
+    }
+
+    .referencia__p1{
+        font-size: 1.25rem;
+    }
+    
+    .referencia__p2{
+        font-size: 1.25rem; 
+    }
+
+    .links-uteis{
+        text-align: left;
+        font-size: .9rem;
+        padding-left: 1rem;
+    }
+
+    .form{
+        margin-top: -2rem;
+        width: 50%;
+    }
+
+    .form__titulo{
+        font-size: 1.25rem;
+    }
+
+    .input-nome{
+        padding: .5rem;
+    }
+
+    .text-msg{
+        padding: .5rem;
+    }
+
+    .form__btn{
+        padding: .75rem 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 769px){
+    .referencia{
+        width: 30%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .links-uteis{
+        width: 30%;
+    }
+
+    .form{
+        width: 30%;
+        margin-top: 0;
+    }
+
+    .contato{
+        padding: 1rem 5rem;
+    }
 }
