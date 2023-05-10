@@ -24,8 +24,12 @@
 
 .login{
     color: var(--azul-destaque);
-    padding: .5rem 2rem;
+    padding: .5rem;
     border: 1px solid var(--azul-destaque);
+    cursor: pointer;
+}
+
+.login a button{
     cursor: pointer;
 }
 

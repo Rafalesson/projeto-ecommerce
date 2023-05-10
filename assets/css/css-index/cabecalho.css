@@ -1,0 +1,79 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 1rem;
+    background-color: var(--branco-total);
+}
+
+.logo-busca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buscador{
+    display: none;
+}
+
+.logo-azul{
+    color: var(--azul-destaque);
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.login{
+    color: var(--azul-destaque);
+    padding: .5rem 2rem;
+    border: 1px solid var(--azul-destaque);
+    cursor: pointer;
+}
+
+.login a button{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 481px){
+    .lupa{
+        display: none;
+    }
+
+    .buscador{
+        display: flex;
+        
+    }
+
+    .buscador input{
+        padding: .5rem 1rem;
+        border-radius: 2rem;
+        background-color: #ebebeb;
+        outline: none;   
+    }
+
+    .buscador input::-webkit-input-placeholder{
+        padding-right: 1rem;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23424242" d="M15.4 13.6l-4-4c.6-.8 1-1.8 1-3 0-2.8-2.2-5-5-5s-5 2.2-5 5 2.2 5 5 5c1.2 0 2.2-.4 3-1l4 4c.2.2.5.4.8.4.6 0 1-.4 1-.9.2-.5-.2-1-.8-1.4zM5 8c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3z"/></svg>');
+        background-repeat: no-repeat;
+        background-size: 1rem;
+        background-position: right center;
+    }
+
+    .buscador input:-moz-placeholder {
+        padding-right: 1rem;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23424242" d="M15.4 13.6l-4-4c.6-.8 1-1.8 1-3 0-2.8-2.2-5-5-5s-5 2.2-5 5 2.2 5 5 5c1.2 0 2.2-.4 3-1l4 4c.2.2.5.4.8.4.6 0 1-.4 1-.9.2-.5-.2-1-.8-1.4zM5 8c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3z"/></svg>');
+        background-repeat: no-repeat;
+        background-size: 1rem;
+        background-position: right center;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .buscador input{
+        padding: .5rem 2rem;  
+    }
+
+    .menu{
+        padding: 0 5rem;
+    }
+}

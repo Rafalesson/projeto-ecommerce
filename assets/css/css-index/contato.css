@@ -1,14 +1,6 @@
 .contato{
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #eaf2fd;
-}
-
-.contato:first-child{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center; 
 }
 
 .referencia{
@@ -93,6 +85,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: 0;
+        height: calc(50vh - 4rem);
     }
 
     .referencia{
@@ -146,6 +140,10 @@
 }
 
 @media screen and (min-width: 769px){
+    .contato{
+        padding: 1rem 5rem;
+    }
+    
     .referencia{
         width: 30%;
         margin: 0;
@@ -160,9 +158,5 @@
     .form{
         width: 30%;
         margin-top: 0;
-    }
-
-    .contato{
-        padding: 1rem 5rem;
     }
 }

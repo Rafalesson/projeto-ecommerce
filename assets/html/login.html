@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--FIM Font Google-->
+    <link rel="stylesheet" href="../css/css-base/reset.css" />
+    <link rel="stylesheet" href="../css/css-base/base.css" />
+    <link rel="stylesheet" href="../css/css-login/cabecalho.css" />
+    <link rel="stylesheet" href="../css/css-login/login.css" />
+    <link rel="stylesheet" href="../css/css-login/contato.css" />
+    <link rel="stylesheet" href="../css/css-login/footer.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav class="menu">
+        <a href="../../index.html" class="logo-busca">
+          <img src="../img/logo.svg" alt="logo" />
+          <p class="logo-azul">Geek</p>
+          <p>Store</p>
+        </a>
+        <!--FIM logo-busca-->
+
+        <div class="buscador">
+          <input
+            type="text"
+            name="buscador"
+            id="buscador"
+            placeholder="Procurando algo?"
+          />
+        </div>
+        <!--FIM BUSCADOR-->
+
+        <div class="lupa">
+          <img src="../img/lupa.svg" alt="lupa" />
+        </div>
+        <!--FIM LUPA-->
+      </nav>
+      <!--FIM MENU-->
+    </header>
+    <!--FIM CABECALHO-->
+
+    <section class="login">
+      <div class="div-login">
+        <h1 class="titulo">Iniciar Sessão</h1>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Escreva seu email"
+      />
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Escreva sua senha"
+      />
+      <button type="submit" class="botao">Entrar</button>
+      </div>
+    </section>
+
+    <section class="contato">
+      <div class="referencia">
+        <img src="../img/logo.svg" alt="logo" />
+        <p class="referencia__p1">Geek</p>
+        <p class="referencia__p2">Store</p>
+      </div>
+
+      <div class="links-uteis">
+        <a href="">Quem somos nós</a>
+        <a href="">Politica de Privacidade</a>
+        <a href="">Programa de fidelidade</a>
+        <a href="">Nossas Lojas</a>
+        <a href="">Quero ser franqueado</a>
+        <a href="">Anuncie aqui</a>
+      </div>
+
+      <div class="form">
+        <p class="form__titulo">Fale conosco</p>
+
+        <div class="label-float">
+          <input
+            type="text"
+            name="Nome"
+            id="Nome"
+            class="input-nome"
+            placeholder="Digite seu nome:"
+          />
+        </div>
+
+        <textarea
+          name="mensagem"
+          id="msg"
+          class="text-msg"
+          placeholder="Digite sua mensagem:"
+        ></textarea>
+
+        <button class="form__btn">Enviar Mensagem</button>
+      </div>
+      <!--form-->
+    </section>
+    <!-- contato-->
+
+    <footer class="footer">
+      <p>
+        Desenvolvido por
+        <a href="https://www.linkedin.com/in/rafael-alesson" class="autor"
+          >Rafa Alesson</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
